@@ -8,9 +8,9 @@ public class Telefonos1 {
     Scanner sc = new Scanner(System.in);
         System.out.println("Ingresa un contacto: (Jordi, Julio");
         String nombre = sc.nextLine();
-        Map<String, Integer> numero = new HashMap<>();
-        numero.put("Jordi", 1);
-        numero.put("Julio", 2);
+        Map<String, String> numero = new HashMap<>();
+        numero.put("Jordi", "1");
+        numero.put("Julio", "2");
 
             if (nombre.equals("Jordi")) {
                 System.out.println(numero.get("Jordi"));
