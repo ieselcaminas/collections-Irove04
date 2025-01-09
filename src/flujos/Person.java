@@ -1,4 +1,4 @@
-package Flujos;
+package flujos;
 
 public class Person {
     private String firstName;
