@@ -1,5 +1,15 @@
 package flujos;
 
+/*
+Ejercicio 2 (F)
+
+(ra2.d, ra2.h, ra3.b, ra3.f, ra5.c, ra6.b, ra6.e, ra6.c, ra6.d)
+
+Recibes una lista de Personas.
+Imprime cuántas personas tienen
+un primer apellido que empiece por A
+ */
+
 import java.util.ArrayList;
 import java.util.List;
 
