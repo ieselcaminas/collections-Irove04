@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Telefonos2 {
-    public static void main(String[] args) {
+    public static Map<String,ArrayList<String>> poneAgenda(){
         ArrayList<String> telefonos = new ArrayList<>();
         telefonos.add("111");
         telefonos.add("222");
@@ -22,5 +22,10 @@ public class Telefonos2 {
         telefonos.add("555");
         telefonos.add("666");
 
+        return agenda;
+    }Flujos
+
+    public static void main(String[] args) {
+        System.out.println(poneAgenda());
     }
 }
